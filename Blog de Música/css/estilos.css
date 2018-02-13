@@ -1,0 +1,141 @@
+body{
+  background: url(../img/fondo.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.contenedor-encabezado{
+  height: 20rem;
+  background-color: white;
+}
+.contenedor-redes{
+  margin-top: 11rem;
+  margin-bottom: 3rem;
+  height: 6rem;
+  text-align: right;
+}
+.img-social{
+  height: 80%;
+  margin-top: 0.5rem;
+}
+.contenedor-logo{
+  height: 20rem;
+  text-align: left;
+}
+.logo{
+  height: 90%;
+  margin-top: 1rem;
+  /*display: block;
+  margin-left: auto;
+  margin-right: auto;*/
+}
+.contenedor-navegacion{
+  height: 4.2rem;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #8E44AD;
+}
+.contenedor-contenido-busqueda,.contenedor-contenido,.contenedor-busqueda{
+  height: 102rem;
+}
+.busqueda{
+  height: 4rem;
+  margin-top: 1rem;
+}
+.buscador{
+  height: 96rem;
+  margin-top: 1rem;
+}
+.texto{
+  float: left;
+  overflow: auto;
+  height: 35rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+.contenido1{
+  height: 51rem;
+}
+.contenido2{
+  height: 51rem;
+  background-color: white;
+  opacity: 0.95;
+  border-top: 1px solid #5F6A6A;
+  border-radius: 0px 0px 10px 10px;
+}
+.articulo1{
+  margin-top: 1rem;
+  height: 40rem;
+  background-color: white;
+  opacity: 0.95;
+  border-radius: 10px 10px 0px 0px;
+}
+.comentarios1{
+  height: 10rem;
+  background-color: white;
+  opacity: 0.95;
+}
+.comentarios{
+  height: 10rem;
+}
+.usuario{
+  margin-top: 0.5rem;
+  height: 9rem;
+  opacity: 0.5;
+  text-align: center;
+}
+.articulo2{
+  height: 41rem;
+}
+.comentarios2{
+  height: 10rem;
+}
+.img-contenido{
+  border-radius: 5px;
+}
+p{
+  text-align: justify;
+}
+h4{
+  text-align: center;
+}
+
+@media (max-width: 767px){
+  .contenedor-encabezado{
+    height: 26rem;
+  }
+  .contenedor-redes{
+    margin-top: 0rem;
+    height: 6rem;
+    text-align: center;
+  }
+  .contenedor-logo{
+    height: 19rem;
+  }
+  .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contenedor-navegacion{
+    height: 27.2rem;
+  }
+  .img-user{
+    height:60%;
+    margin-top: 1rem;
+  }
+  .user{
+    text-align: left;
+        margin-left: 0px;
+  }
+}
+@media (min-width: 989px){
+  .articulo1,.articulo2{
+    height: 38rem;
+  }
+  .comentarios1{
+    height: 12rem;
+  }
+}

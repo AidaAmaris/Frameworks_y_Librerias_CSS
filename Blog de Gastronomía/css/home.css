@@ -1,0 +1,63 @@
+body{
+  background: url(../img/fondo.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+h1{
+  text-align: right;
+  color: grey;
+}
+.encabezado,.principal{
+  background-color: #EAFAF1;
+  opacity: 0.95;
+}
+.img-logo{
+  border-radius: 20px;
+}
+.logo{
+  text-align: right;
+  padding-top: 0.5rem;
+  border-right: 2px solid white;
+}
+.slogan{
+  color: grey;
+}
+.comentarios,.nuevo-comentario{
+  margin-top: 0.5rem;
+}
+.contenedor-articulos,.favoritos,.busqueda,.navegacion,.historial{
+  background-color: white;
+}
+.icon{
+  font-size: 1.5rem;
+  opacity: 0.5;
+}
+.search{
+  height: 3.1rem;
+  border: 1px solid green;
+}
+.button{
+  border: 1px solid white;
+}
+.menu,.titulo-articulo,.img-receta{
+  text-align: center;
+}
+.img{
+  margin-top: 0.2rem;
+}
+.fecha{
+  color: #1D8348;
+}
+.parrafo-articulo{
+  text-align: justify;
+}
+.btn{
+  text-align: right;
+}
+.img-comentarios{
+  height: 3rem;
+}

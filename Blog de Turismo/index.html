@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>Mi primer página con Materialize CSS</title>
+  </head>
+  <body>
+    <div class="contenedor-principal">
+
+      <!-- Encabezado: logo navegación-->
+      <div class="row teal logo-nav green lighten-5">
+        <!--Logo-->
+        <div class="col s7 m3 contenedor-logo valign-wrapper  white">
+            <img src="img/logo.jpg" alt="Logo" class="valign center-block circle responsive-img">
+        </div>
+        <div class="col s5 m9 contenedor-nav-slogan">
+          <!--Navegación-->
+          <div class="row">
+            <!--Navegación visualización tablets - portatiles - desktop-->
+            <div class="col s12 contenedor-nav hide-on-med-and-down">
+                <a class="btn btn-small waves-effect  light-blue accent-4">Inicio<i class="material-icons left">home</i></a>
+                <a class="btn btn-small waves-effect  light-blue accent-4">Viajes<i class="material-icons left">airport_shuttle</i></a>
+                <a class="btn btn-small waves-effect  light-blue accent-4">Galeria<i class="material-icons left">image</i></a>
+                <a class="btn btn-small waves-effect  light-blue accent-4">Recomendados<i class="material-icons left">grade</i></a>
+            </div>
+            <!--Navegación visualización mobile-->
+            <div class="col s12 contenedor-nav hide-on-large-only">
+                <a class="btn btn-small waves-effect  light-blue accent-4"><i class="material-icons center">home</i></a>
+                <a class="btn btn-small waves-effect  light-blue accent-4"><i class="material-icons center">airport_shuttle</i></a>
+                <a class="btn btn-small waves-effect  light-blue accent-4"><i class="material-icons center">image</i></a>
+                <a class="btn btn-small waves-effect  light-blue accent-4"><i class="material-icons center">grade</i></a>
+            </div>
+            <!--Slogan visualización tablets - portatiles - desktop-->
+            <div class="col s12 contenedor-slogan hide-on-small-only valign-wrapper">
+              <h4 class=" valing center-block"><em>Viaje sin fronteras.</em></h4>
+            </div>
+          </div>
+        </div>
+        <!--Slogan visualización mobile-->
+        <div class="col s12 contenedor-slogan-mobile hide-on-med-and-up valign-wrapper">
+          <h4 class=" valing center-block"><em>Viaje sin fronteras.</em></h4>
+        </div>
+      </div>
+
+      <!-- Sección1: redes sociales,imagenes -->
+      <!--Visualización portatiles - desktop-->
+      <div class="row hide-on-med-only prueba">
+        <!--redes sociales-->
+        <div class="col m3 contenedor-redes-sociales hide-on-small-only green lighten-5">
+          <ul>
+            <li><a href="#"><img src="img/facebook.png" alt="Facebook" class="img-social"></a></li>
+            <li><a href="#"><img src="img/instagram.png" alt="Instagram" class="img-social"></a></li>
+            <li><a href="#"><img src="img/twitter.png" alt="Twitter" class="img-social"></a></li>
+            <li><a href="#"><img src="img/youtube.png" alt="Youtube" class="img-social"></a></li>
+            <li><a href="#"><img src="img/pinterest.png" alt="Pinterest" class="img-social"></a></li>
+          </ul>
+        </div>
+
+        <!--Imagenes-->
+        <div class="col s12 m3 contenedor-imagenes green lighten-5">
+          <!--1 bloque de imagenes-->
+          <div class="row fila">
+            <div class="col s12 contenedor-img valign-wrapper">
+                <img src="img/tayrona.jpg" alt="Tayrona" class="valign center-block responsive-img z-depth-2">
+            </div>
+            <div class="col s12 contenedor-img valign-wrapper">
+                <img src="img/canocristales.jpg" alt="Cano cristales" class="valign center-block responsive-img z-depth-2">
+            </div>
+          </div>
+        </div>
+        <!--2 bloque de imagenes-->
+        <div class="col s12 m3 contenedor-imagenes green lighten-5">
+          <div class="row fila">
+            <div class="col s12 contenedor-img valign-wrapper">
+                <img src="img/mompox.jpg" alt="Mompox" class="valign center-block responsive-img z-depth-2">
+            </div>
+            <div class="col s12 contenedor-img valign-wrapper">
+                <img src="img/guatape.jpg" alt="Guatape" class="valign center-block responsive-img z-depth-2">
+            </div>
+          </div>
+        </div>
+        <!--3 bloque de imagenes-->
+        <div class="col s12 m3 contenedor-imagenes green lighten-5">
+          <div class="row fila">
+            <div class="col s12 contenedor-img valign-wrapper">
+                <img src="img/santarosa.jpg" alt="Santa Rosa" class="valign center-block responsive-img z-depth-2">
+            </div>
+            <div class="col s12 contenedor-img valign-wrapper">
+                <img src="img/zipaquira.jpg" alt="Zipaquira" class="valign center-block responsive-img z-depth-2">
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <!--Visualización tablets-->
+        <div class="row hide-on-large-only hide-on-small-only prueba">
+          <!--redes sociales-->
+          <div class="col m2 contenedor-redes-sociales green lighten-5">
+            <ul>
+              <li><a href="#"><img src="img/facebook.png" alt="Facebook" class="img-social"></a></li>
+              <li><a href="#"><img src="img/instagram.png" alt="Instagram" class="img-social"></a></li>
+              <li><a href="#"><img src="img/twitter.png" alt="Twitter" class="img-social"></a></li>
+              <li><a href="#"><img src="img/youtube.png" alt="Youtube" class="img-social"></a></li>
+              <li><a href="#"><img src="img/pinterest.png" alt="Pinterest" class="img-social"></a></li>
+            </ul>
+          </div>
+          <!--Imagenes-->
+
+          <div class="col m5 contenedor-imagenes green lighten-5">
+            <!--1 bloque de imagenes-->
+            <div class="row fila">
+              <div class="col s12 contenedor-img valign-wrapper">
+                  <img src="img/tayrona.jpg" alt="Tayrona" class="valign center-block responsive-img z-depth-2">
+              </div>
+              <div class="col s12 contenedor-img valign-wrapper">
+                  <img src="img/canocristales.jpg" alt="Cano cristales" class="valign center-block responsive-img z-depth-2">
+              </div>
+              <div class="col s12 contenedor-img valign-wrapper">
+                  <img src="img/santarosa.jpg" alt="Santa Rosa" class="valign center-block responsive-img z-depth-2">
+              </div>
+            </div>
+          </div>
+          <!--2 bloque de imagenes-->
+          <div class="col s12 m5 contenedor-imagenes green lighten-5">
+            <div class="row fila">
+              <div class="col s12 contenedor-img valign-wrapper">
+                  <img src="img/mompox.jpg" alt="Mompox" class="valign center-block responsive-img z-depth-2">
+              </div>
+              <div class="col s12 contenedor-img valign-wrapper">
+                  <img src="img/guatape.jpg" alt="Guatape" class="valign center-block responsive-img z-depth-2">
+              </div>
+              <div class="col s12 contenedor-img valign-wrapper">
+                  <img src="img/zipaquira.jpg" alt="Zipaquira" class="valign center-block responsive-img z-depth-2">
+              </div>
+            </div>
+          </div>
+          </div>
+
+        <!--Sección2: Entrada, comentarios, perfil del autor-->
+        <div class="row fila2">
+          <div class="col s12 m12 l8">
+            <!--Entrada-->
+            <div class="row contenedor-articulo-comentarios grey lighten-5">
+              <div class="entrada">
+                <!--Articulo 1-->
+                <div class="col s12 articulo">
+                    <div class="texto1">
+                      <img src="img/mompox.jpg" hspace="10" style="float: left;" />
+                        <h4>Momp&oacute;s</h4>
+                        <div class="chip">
+                          8 de Febrero de 2018
+                          <i class="close material-icons">event</i>
+                        </div>
+                        <div class="chip">
+                          Momp&oacute;s-Bolivar,Colombia
+                          <i class="close material-icons">add_location</i>
+                        </div>
+                        <p>Santa Cruz de Momp&oacute;s Bolivar, es un bello municipio Colombiano situado en el departamento de Bolivar, dentro de la isla Margarita, ba&ntilde;ado por las aguas del rio Magdalena. Su temperatura promedio es de 31&deg cent&iacute;grados y es un lugar mágico, tranquilo y perfecto para aquellas personas amantes de la historia, cultura y la arquitectura colonial.  </p>
+                        <p>Para los amantes de la cultura, Momp&oacute;s ofrece las siguientes actividades durante el a&ntilde;o:
+                          <br>
+                          Semana Santa. se realiza en el mes de Abril. Este es uno de los motivos de peso para que la Unesco declarara a Momp&oacute;s como patrimonio historico y cultural de la humanidad.
+                          <br>
+                          El festival del Jazz. Es un evento internacional que se realiza en el mes de septiembre. En este festival, se llevan a cabo presentaciones musicales interpretadas por grupos Colombianos y extrangeros quienes se presentan en las plazas, iglesias, casa de la cultura y calles de la ciudad.
+                        </p>
+                    </div>
+                  </div>
+                <!--Comentarios-->
+                  <div class="col s12 comentarios  blue lighten-4">
+                    <div class="row">
+                      <div class="col s12">
+                        <h5>Deja tu comentario</h5>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <form class="col s12">
+                        <div class="input-field col s6">
+                          <i class="material-icons prefix">account_circle</i>
+                          <input id="icon_prefix" type="text" class="validate">
+                          <label for="icon_prefix">Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <i class="material-icons prefix">email</i>
+                          <input id="email" type="email" class="validate">
+                          <label for="email" data-error="wrong" data-success="right">Email</label>
+                        </div>
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">message</i>
+                          <textarea id="textarea1" class="materialize-textarea"></textarea>
+                          <label for="textarea1">Comentario</label>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <hr/>
+                  <!--Articulo 2-->
+                  <div class="col s12 articulo">
+                      <div class="texto1">
+                        <img src="img/lagunaverde.jpg" hspace="10" style="float: left;" />
+                          <h4>Laguna Verde</h4>
+                          <div class="chip">
+                             1 de Febrero de 2018
+                            <i class="close material-icons">event</i>
+                          </div>
+                          <div class="chip">
+                            California, N.S. Colombia
+                            <i class="close material-icons">add_location</i>
+                          </div>
+                          <p>La laguna verde es una de las marvillas del p&aacute;ramo Santurban, ubicada en un municipio llamado California, en el Departamento de Santander. El P&aacute;ramo Santurbán uno de los 36 p&aacute;ramos que tiene nuestro pa&iacute;s, se localiza en los departamentos de Norte de Santander y Santander. Esta región natural abarca un total de 105.525 hectáreas delimitadas a partir de la cota de los 2800 y 4.250 msnm.
+                            <br>
+                             El páramo es muy rico por la variedad de plantas como el Frailejón, las cuales forman espesos colchones que contribuyen a la regulación hídrica del ecosistema, siendo el agua el mayor tesoro que el ecosistema páramo brinda a la población.</p>
+                             <p>Para aquellos amantes de la naturaleza y en especial del trekking, el plan de ir a conocer este lugar es perfecto, ya que son 8 horas de caminata, con un nivel de exigencia física 4 de 5.</p>
+                      </div>
+                    </div>
+                  <!--Comentarios-->
+                    <div class="col s12 comentarios  blue lighten-4">
+                      <div class="row">
+                        <div class="col s12">
+                          <h5>Deja tu comentario</h5>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <form class="col s12">
+                          <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">Name</label>
+                          </div>
+                          <div class="input-field col s6">
+                            <i class="material-icons prefix">email</i>
+                            <input id="email" type="email" class="validate">
+                            <label for="email" data-error="wrong" data-success="right">Email</label>
+                          </div>
+                          <div class="input-field col s12">
+                            <i class="material-icons prefix">message</i>
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Comentario</label>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+            <!--Perfil del autor-->
+          <div class="col s12 m12 l4 contenedor-perfil-autor grey lighten-5">
+            <div class="row perfil">
+              <div class="col s12 imagen-autor">
+                <img src="img/autor.jpg" hspace="10" style="float: center;"class="valign center-block circle responsive-img" />
+              </div>
+              <div class="col s12 resena-autor">
+                <h5>Perfil del autor</h5>
+                <hr/>
+                <p>Mi nimbre es Aida Amar&iacute;s, nac&iacute; en un hermoso pa&iacute;s llamado Colombia y me declaro fiel enamorada de mi pa&iacute;s por la diversidad en flora y fauna que tiene y por sus bellos y magnificos paisajes naturales.</p>
+                <p>Soy fiel amante de la naturaleza, de la gastronom&iacute;a de la cultura y de la historia y por eso quiero mostrarles a trav&eacute;z de este rinconcito web, mi experiencia con cada viaje que realice y la magia que tiene cada lugar, que se ve representada por su gente, su gastronom&iacute;a, sus paisajes, su historia y su cultura.</p>
+                <p>Los invito que me sigan en este viaje sin fronteras en el que cada semana les mostrer&eacute; un lugar diferente.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
